@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "KelsonSansRegular";
+    src: url("../fonts/KelsonSansRegular/KelsonSansRegular.eot");
+    src: url("../fonts/KelsonSansRegular/KelsonSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSansRegular/KelsonSansRegular.woff") format("woff"),
+    url("../fonts/KelsonSansRegular/KelsonSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "KelsonSansBold";
+    src: url("../fonts/KelsonSansBold/KelsonSansBold.eot");
+    src: url("../fonts/KelsonSansBold/KelsonSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSansBold/KelsonSansBold.woff") format("woff"),
+    url("../fonts/KelsonSansBold/KelsonSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: OfficinaSansExtraBold;
+    src: url("../fonts/OfficinaSansExtraBold/OfficinaSansExtraBold.eot");
+    src: url("../fonts/OfficinaSansExtraBold/OfficinaSansExtraBold.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/OfficinaSansExtraBold/OfficinaSansExtraBold.woff") format("woff");
+    src: url("../fonts/OfficinaSansExtraBold/OfficinaSansExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansBook";
+    src: url("../fonts/OfficinaSansBook/OfficinaSansBook.eot");
+    src: url("../fonts/OfficinaSansBook/OfficinaSansBook.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OfficinaSansBook/OfficinaSansBook.woff") format("woff"),
+    url("../fonts/OfficinaSansBook/OfficinaSansBook.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: KelsonSans;
+    color: #0b232d;
+    font-weight: bold;
+}
