@@ -41,3 +41,134 @@ body {
     color: #0b232d;
     font-weight: bold;
 }
+
+.inner {
+    box-sizing: border-box;
+    width: 100%;
+    max-width:1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: #00415b;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.header__left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 270px;
+    font-size: 0;
+    margin-right: 54px;
+}
+
+.img {
+    width: 100%;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    display: inline-block;
+    width: 100%;
+    max-width: 415px;
+    border: 0px;
+    font-family: OfficinaSansBook;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 18px 30px 17px 30px;
+    background: #004a67;
+    border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #ffffff;
+}
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+}
+
+.search__button {
+    width: 100%;
+    max-width: 27px;
+    height: 28px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url("../img/template/loupe.png") no-repeat;
+    font-size: 0;
+    padding: 0;
+    position: relative;
+    top: 4px;
+    right: 47px;
+}
+
+.header__phone {
+    font-family: KelsonSansBold;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.button {
+    background: linear-gradient(to top, #eb6c0e 0%, #f29b03 100%);
+    color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 240px;
+    text-decoration: none;
+    line-height: 1;
+    font-family: OfficinaSansExtraBold;
+    border-radius: 3px;
+    padding: 8px 0px 11px;
+    text-align: center;
+}
+
+.header__callback {
+    font-size: 20px;
+    margin-left: 19px;
+}
+
+.callback__img {
+    width: 100%;
+    max-width: 16px;
+    position: relative;
+    top:5px;
+    left:-3px;
+}
+
+@media (min-width: 1024px) {
+    .header__logo:hover,
+    .search__button:hover,
+    .search__input:hover,
+    .header__phone:hover,
+    .button:hover {
+        opacity: 0.9;
+    }
+}
