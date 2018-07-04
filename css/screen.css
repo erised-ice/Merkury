@@ -40,6 +40,17 @@ body {
     font-family: KelsonSans;
     color: #0b232d;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body > * {
+    flex-grow: 0;
+}
+
+body main {
+    flex-grow: 1;
 }
 
 .inner {
@@ -60,10 +71,13 @@ body {
     padding: 30px 20px;
 }
 
-.header__logo {
+.logo {
     width: 100%;
     max-width: 270px;
     font-size: 0;
+}
+
+.header__logo {
     margin-right: 54px;
 }
 
@@ -82,6 +96,7 @@ body {
     font-family: OfficinaSansBook;
     font-size: 18px;
     color: #fff;
+    opacity: 0.6;
     padding: 18px 30px 17px 30px;
     background: #004a67;
     border-radius: 3px;
@@ -115,11 +130,14 @@ body {
     right: 24px;
 }
 
-.header__phone {
+.phone {
     font-family: KelsonSansBold;
     color: #fff;
     font-size: 24px;
     text-decoration: none;
+}
+
+.header__phone {
     letter-spacing: -0.5px;
 }
 
@@ -131,24 +149,81 @@ body {
     width: 100%;
     max-width: 240px;
     text-decoration: none;
+    text-shadow: 0 1px 2px rgba(6, 35, 46, 0.25);
     line-height: 1;
     font-family: OfficinaSansExtraBold;
     border-radius: 3px;
-    padding: 8px 0px 11px;
+    padding: 12px 0px 13px;
     text-align: center;
 }
 
 .header__callback {
-    font-size: 20px;
     margin-left: 19px;
 }
+
+.callback {
+    font-size: 20px;
+    position: relative;
+}
+
 
 .callback__img {
     width: 100%;
     max-width: 16px;
-    position: relative;
-    top: 5px;
-    left: -3px;
+    position: absolute;
+    top: 12px;
+    left: 26px;
+}
+
+footer {
+    background: linear-gradient(to top, #002331 0%, #003246 100%);;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 20px 64px;
+}
+
+.footer__logo {
+    margin-right: 104px;
+    text-decoration: none;
+}
+
+.logo__caption {
+    color: #fff;
+    font-size: 12px;
+    font-family: KelsonSansRegular;
+    opacity: 0.55;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.74);
+    margin-top: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.address__post {
+    display: block;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.74);
+    color: #fff;
+    font-family: KelsonSansRegular;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.address__email {
+    display: block;
+    color: #6ad5ff;
+    font-family: KelsonSansRegular;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    margin-top: 16px;
+}
+
+.footer__callback {
+    margin-top: 18px;
 }
 
 @media (min-width: 1024px) {
