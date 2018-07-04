@@ -43,9 +43,8 @@ body {
 }
 
 .inner {
-    box-sizing: border-box;
     width: 100%;
-    max-width:1320px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -61,16 +60,6 @@ body {
     padding: 30px 20px;
 }
 
-.header__left {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.header__right {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .header__logo {
     width: 100%;
     max-width: 270px;
@@ -78,39 +67,37 @@ body {
     margin-right: 54px;
 }
 
-.img {
-    width: 100%;
-}
-
 .header__search {
     display: flex;
     align-items: center;
+    position: relative;
+    margin-right: 85px;
 }
 
 .search__input {
     display: inline-block;
     width: 100%;
     max-width: 415px;
-    border: 0px;
+    border: none;
     font-family: OfficinaSansBook;
     font-size: 18px;
-    color: #ffffff;
+    color: #fff;
     padding: 18px 30px 17px 30px;
     background: #004a67;
     border-radius: 3px;
 }
 
 ::-webkit-input-placeholder {
-    color: #ffffff;
+    color: #fff;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-    color: #ffffff;
+    color: #fff;
 }
 :-ms-input-placeholder {
-    color: #ffffff;
+    color: #fff;
 }
 :-moz-placeholder { /* Firefox 18- */
-    color: #ffffff;
+    color: #fff;
 }
 
 .search__button {
@@ -123,21 +110,22 @@ body {
     background: url("../img/template/loupe.png") no-repeat;
     font-size: 0;
     padding: 0;
-    position: relative;
-    top: 4px;
-    right: 47px;
+    position: absolute;
+    top: 14px;
+    right: 24px;
 }
 
 .header__phone {
     font-family: KelsonSansBold;
-    color: #ffffff;
+    color: #fff;
     font-size: 24px;
     text-decoration: none;
+    letter-spacing: -0.5px;
 }
 
 .button {
     background: linear-gradient(to top, #eb6c0e 0%, #f29b03 100%);
-    color: #ffffff;
+    color: #fff;
     display: inline-block;
     box-sizing: border-box;
     width: 100%;
@@ -159,8 +147,8 @@ body {
     width: 100%;
     max-width: 16px;
     position: relative;
-    top:5px;
-    left:-3px;
+    top: 5px;
+    left: -3px;
 }
 
 @media (min-width: 1024px) {
