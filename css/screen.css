@@ -182,13 +182,13 @@ footer {
 .footer__inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 49px 20px 64px;
 }
 
 .footer__logo {
     margin-right: 104px;
     text-decoration: none;
+    display: block;
 }
 
 .logo__caption {
@@ -202,6 +202,36 @@ footer {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    max-height: 73px;
+    flex-wrap: wrap;
+    width: 239px;
+    align-items: stretch;
+}
+
+.nav__item {
+    display: block;
+    padding-right: 55px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.74);
+    color: #fff;
+    font-family: KelsonSansRegular;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+}
+
+.nav__item:nth-last-child(1),
+.nav__item:nth-last-child(2) {
+    padding-right: 0;
+}
+
+.footer__address {
+    margin-right: 129px;
 }
 
 .address__post {
@@ -222,16 +252,27 @@ footer {
     margin-top: 16px;
 }
 
+.footer__contacts {
+    max-width: 240px;
+    width: 100%;
+}
+
 .footer__callback {
     margin-top: 18px;
 }
 
+.footer__callback,
+.footer__phone {
+    display: block;
+}
+
 @media (min-width: 1024px) {
-    .header__logo:hover,
+    .logo:hover,
     .search__button:hover,
     .search__input:hover,
-    .header__phone:hover,
-    .button:hover {
+    .phone:hover,
+    .button:hover
+    .nav__item:hover {
         opacity: 0.9;
     }
 }

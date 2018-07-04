@@ -90,7 +90,7 @@ input, textarea {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   max-width: 100%;
   border: none;
   outline: none;
@@ -104,6 +104,9 @@ html, body {
   min-width: 320px;
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  min-height: 100vh;
 }
 
 body {
@@ -121,7 +124,7 @@ body {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  min-height: 100%;
+  width: 100%;
 }
 
 table {
