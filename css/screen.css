@@ -45,12 +45,14 @@ body {
     justify-content: space-between;
 }
 
-body > * {
-    flex-grow: 0;
+.header,
+.nav,
+.footer {
+    flex: 0 0 auto;
 }
 
-body main {
-    flex-grow: 1;
+.main {
+    flex: 1 0 auto;
 }
 
 .inner {
@@ -175,7 +177,7 @@ body main {
     left: 26px;
 }
 
-footer {
+.footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);;
 }
 
@@ -191,7 +193,7 @@ footer {
     display: block;
 }
 
-.logo__caption {
+.footer__copyright {
     color: #fff;
     font-size: 12px;
     font-family: KelsonSansRegular;
@@ -200,7 +202,7 @@ footer {
     margin-top: 20px;
 }
 
-.uppercase {
+.footer__copyright--uppercase {
     text-transform: uppercase;
 }
 
