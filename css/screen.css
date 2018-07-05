@@ -188,7 +188,7 @@ body {
 }
 
 .footer__logo {
-    margin-right: 104px;
+    margin-right: 103px;
     text-decoration: none;
     display: block;
 }
@@ -200,6 +200,7 @@ body {
     opacity: 0.55;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.74);
     margin-top: 20px;
+    font-weight: 400;
 }
 
 .footer__copyright--uppercase {
@@ -212,12 +213,13 @@ body {
     max-height: 73px;
     flex-wrap: wrap;
     width: 239px;
-    align-items: stretch;
+    line-height: 24px;
+    margin-right: 123px;
 }
 
 .nav__item {
     display: block;
-    padding-right: 55px;
+    padding-right: 52px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.74);
     color: #fff;
     font-family: KelsonSansRegular;
@@ -225,6 +227,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.9px;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .nav__item:nth-last-child(1),
@@ -233,7 +236,8 @@ body {
 }
 
 .footer__address {
-    margin-right: 129px;
+    margin-right: 127px;
+    font-weight: 400;
 }
 
 .address__post {
@@ -242,7 +246,7 @@ body {
     color: #fff;
     font-family: KelsonSansRegular;
     font-size: 16px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.7px;
 }
 
 .address__email {
