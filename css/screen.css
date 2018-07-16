@@ -129,8 +129,8 @@ body {
     cursor: pointer;
     background: url("../img/template/loupe.png") no-repeat;
     border: none;
-    transform: translate(0, -50%);
     outline: none;
+    transform: translate(0, -50%);
 }
 
 .phone {
@@ -186,6 +186,11 @@ body {
     border-bottom: 4px solid #001821;
 }
 
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-between;
@@ -205,6 +210,45 @@ nav__item {
     text-decoration: none;
     letter-spacing: 0.9px;
     color: #fff;
+}
+
+.nav__basket {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 312px;
+    box-sizing: border-box;
+    padding: 18px;
+    padding-left: 75px;
+    font-family: OfficinaSansExtraBold;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #001821;
+}
+
+.nav__basket:before {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background: url("../img/template/basket.png");
+    transform: translate(0, -50%);
+    content: "";
+}
+
+.basket__summ {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.basket__cart-counter {
+    font-family: OfficinaSansExtraBold;
+    font-weight: 900;
+    color: #15aeeb;
 }
 
 .footer {
