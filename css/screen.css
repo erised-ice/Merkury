@@ -181,6 +181,32 @@ body {
     content: "";
 }
 
+.nav {
+    background: linear-gradient(to top, #002331 0%, #003246 100%);
+    border-bottom: 4px solid #001821;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    display: block;
+    padding: 19px;
+    font-family: KelsonSansBold;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.9px;
+    color: #fff;
+}
+
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);;
 }
