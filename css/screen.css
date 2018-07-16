@@ -197,6 +197,7 @@ body {
 }
 
 nav__item {
+    position: relative;
     display: inline-block;
 }
 
@@ -227,6 +228,40 @@ nav__item {
     background: url("../img/template/nav__strips.png");
     transform: translate(0, -50%);
     content: "";
+}
+
+.nav__item--submenu {
+    position: relative;
+}
+
+.nav__submenu {
+    position: absolute;
+    top: 64px;
+    display: none;
+    justify-content: space-between;
+    width: 968px;
+    max-height: 226px;
+    padding-top: 18px;
+    padding-bottom: 29px;
+    background-color: #002939;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.nav__item--submenu:hover .nav__submenu {
+    display: flex;
+}
+
+.submenu__link {
+    display: block;
+    padding: 3px;
+    padding-left: 37px;
+    padding-right: 103px;
+    font-family: KelsonSansBold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .nav__basket {
@@ -376,5 +411,10 @@ nav__item {
 
     .nav__item:hover {
         background-color: #0b6589;
+    }
+
+    .submenu__link:hover {
+        text-decoration: underline;
+        color: #f19305;
     }
 }
