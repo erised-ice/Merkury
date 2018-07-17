@@ -193,14 +193,37 @@ body {
     overflow: hidden;
 }
 
+.slider__slide {
+    position: relative;
+    text-align: center;
+}
+
 .slider__title {
     display: inline-block;
     padding: 10px 21px 5px;
+    margin-top: 36px;
     font-family: OfficinaSansExtraBold;
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
     background: #15aeeb;
+}
+
+.slider__text {
+    width: 636px;
+    margin: 13px auto;
+    font-family: OfficinaSansExtraBold;
+    font-size: 68px;
+    text-shadow: 0 2px 0 rgba(8, 16, 19, 0.25);
+    line-height: 58px;
+    color: #fff;
+}
+
+.slider__link {
+    padding: 10px;
+    font-family: OfficinaSansExtraBold;
+    font-size: 20px;
+    color: #fff;
 }
 
 .footer {
@@ -306,5 +329,10 @@ body {
     .button:hover,
     .menu__item:hover {
         opacity: 0.8;
+    }
+
+    .slider__link:hover {
+        color: #ffb400;
+        text-decoration: underline;
     }
 }
