@@ -181,6 +181,28 @@ body {
     content: "";
 }
 
+.main {
+    background: deeppink;
+}
+
+.slider {
+    height: 542px;
+    background: url("../img/template/slider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.slider__title {
+    display: inline-block;
+    padding: 10px 21px 5px;
+    font-family: OfficinaSansExtraBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #15aeeb;
+}
+
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);;
 }
