@@ -196,11 +196,6 @@ body {
     justify-content: space-between;
 }
 
-nav__item {
-    position: relative;
-    display: inline-block;
-}
-
 .nav__link {
     position: relative;
     display: block;
@@ -236,14 +231,14 @@ nav__item {
 
 .nav__submenu {
     position: absolute;
-    top: 64px;
+    top: 60px;
     display: none;
     justify-content: space-between;
     width: 968px;
     max-height: 226px;
-    padding-top: 18px;
-    padding-bottom: 29px;
+    padding: 18px 0px 19px;
     background-color: #002939;
+    border-top: 4px solid #001821;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -254,9 +249,7 @@ nav__item {
 
 .submenu__link {
     display: block;
-    padding: 3px;
-    padding-left: 37px;
-    padding-right: 103px;
+    padding: 3px 103px 3px 37px;
     font-family: KelsonSansBold;
     font-size: 14px;
     text-decoration: none;
@@ -270,8 +263,7 @@ nav__item {
     width: 100%;
     max-width: 312px;
     box-sizing: border-box;
-    padding: 18px;
-    padding-left: 75px;
+    padding: 18px 18px 18px 75px;
     font-family: OfficinaSansExtraBold;
     font-size: 18px;
     text-decoration: none;
