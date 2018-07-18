@@ -181,10 +181,6 @@ body {
     content: "";
 }
 
-.main {
-    background: deeppink;
-}
-
 .slider {
     height: 542px;
     background: url("../img/template/slider.png");
@@ -248,7 +244,8 @@ body {
 }
 
 .slick-dots li button:before,
-.slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button:before,
+.slick-arrow:before {
     color: transparent;
 }
 
@@ -257,15 +254,39 @@ body {
     opacity: 1;
 }
 
-.slick-dots li.slick-active:after {
+.slick-dots li.slick-active:before {
     position: absolute;
-    width: 26px;
-    height: 26px;
+    bottom: -6.5px;
+    right: -6px;
+    content: "";
+    width: 23px;
+    height: 23px;
     border: 2px solid #fff;
-    opacity: 1;
 }
 
+.slick-prev {
+    width: 63px;
+    height: 51px;
+    background: url("../img/template/left.png");
+}
 
+.slick-next {
+    width: 63px;
+    height: 51px;
+    background: url("../img/template/right.png");
+}
+
+/*Перекрыть стили слайдера, при которых исчезают стрелки при наведении*/
+
+.slick-prev:hover,
+.slick-prev:focus {
+    background: url("../img/template/left.png");
+}
+
+.slick-next:hover,
+.slick-next:focus {
+    background: url("../img/template/right.png");
+}
 
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);;
