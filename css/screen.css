@@ -295,6 +295,18 @@ body {
     color: #15aeeb;
 }
 
+.production__title {
+    height: 77px;
+    text-align: center;
+    padding-top: 19px;
+    font-family: KelsonSansBold;
+    text-shadow: 0 2px 3px rgba(8, 16, 19, 0.22);
+    color: #fff;
+    background-image: linear-gradient(to top, #eb6c0e 0%, #f29b03 100%);
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);
 }
