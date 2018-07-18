@@ -305,6 +305,16 @@ body {
     background-image: linear-gradient(to top, #eb6c0e 0%, #f29b03 100%);
     font-size: 29px;
     text-transform: uppercase;
+    box-shadow: 0 2px 3px rgba(8, 16, 19, 0.15);
+}
+
+.production__main {
+    height: 715px;
+    background: url("../img/template/production__back.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
 }
 
 .footer {
