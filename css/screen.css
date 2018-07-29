@@ -303,12 +303,25 @@ body {
 .content__inner {
     display: flex;
     justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 77px;
+    max-width: 1287px;
+}
+
+.content__img {
+    margin-right: 83px;
+    max-height: 422px;
+}
+
+.content-info {
+    max-width: 711px;
 }
 
 .content__title {
     font-family: KelsonSansBold;
     font-size: 33px;
     color: #0b232e;
+    padding-bottom: 23px;
 }
 
 .content__button {
@@ -322,6 +335,9 @@ body {
 
 .content__p {
     font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 36px;
 }
 
 .footer {
