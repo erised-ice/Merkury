@@ -129,8 +129,8 @@ body {
     cursor: pointer;
     background: url("../img/template/loupe.png") no-repeat;
     border: none;
-    outline: none;
     transform: translate(0, -50%);
+    outline: none;
 }
 
 .phone {
@@ -295,6 +295,113 @@ body {
     color: #15aeeb;
 }
 
+.slider {
+    height: 542px;
+    background: url("../img/template/slider.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    overflow: hidden;
+}
+
+.slider__slide {
+    position: relative;
+    text-align: center;
+}
+
+.slider__title {
+    display: inline-block;
+    padding: 10px 21px 5px;
+    margin-top: 36px;
+    font-family: OfficinaSansExtraBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #15aeeb;
+}
+
+.slider__text {
+    width: 636px;
+    margin: 13px auto;
+    font-family: OfficinaSansExtraBold;
+    font-size: 68px;
+    text-shadow: 0 2px 0 rgba(8, 16, 19, 0.25);
+    line-height: 58px;
+    color: #fff;
+}
+
+.slider__link {
+    padding: 10px;
+    font-family: OfficinaSansExtraBold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.slider__inner,
+.slick-list,
+.slick-track {
+    height: 100%;
+}
+
+.slick-dots {
+    bottom: 24px;
+}
+
+.slick-dots li {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    opacity: 0.4;
+}
+
+.slick-dots li:not(:last-child) {
+    margin-right: 12px;
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before,
+.slick-arrow:before {
+    color: transparent;
+}
+
+.slick-dots li.slick-active {
+    position: relative;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active:before {
+    position: absolute;
+    bottom: -6.5px;
+    right: -6px;
+    content: "";
+    width: 23px;
+    height: 23px;
+    border: 2px solid #fff;
+}
+
+.slick-prev {
+    width: 63px;
+    height: 51px;
+    background: url("../img/template/left.png");
+}
+
+.slick-next {
+    width: 63px;
+    height: 51px;
+    background: url("../img/template/right.png");
+}
+
+/*Перекрыть стили слайдера, при которых исчезают стрелки при наведении*/
+
+.slick-prev:hover,
+.slick-prev:focus {
+    background: url("../img/template/left.png");
+}
+
+.slick-next:hover,
+.slick-next:focus {
+    background: url("../img/template/right.png");
+}
+
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);
 }
@@ -399,6 +506,11 @@ body {
     .nav__basket:hover,
     .menu__item:hover {
         opacity: 0.8;
+    }
+
+    .slider__link:hover {
+        color: #ffb400;
+        text-decoration: underline;
     }
 
     .nav__item:hover {
