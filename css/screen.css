@@ -313,7 +313,7 @@ body {
     max-height: 422px;
 }
 
-.content-info {
+.content__info {
     max-width: 711px;
 }
 
@@ -333,7 +333,7 @@ body {
     text-shadow: 0 1px 2px rgba(6, 35, 46, 0.25);
 }
 
-.content__p {
+p {
     font-size: 16px;
     font-weight: normal;
     text-align: justify;
