@@ -38,7 +38,7 @@
 
 body {
     display: flex;
-    font-family: KelsonSans;
+    font-family: KelsonSansRegular;
     font-weight: bold;
     color: #0b232d;
     flex-direction: column;
@@ -401,6 +401,51 @@ body {
 .slick-next:hover,
 .slick-next:focus {
     background: url("../img/template/right.png");
+}
+
+.content {
+    background: url("../img/template/white__background.png");
+    background-repeat: repeat;
+}
+
+.content__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 77px;
+    max-width: 1287px;
+}
+
+.content__img {
+    margin-right: 83px;
+    max-height: 422px;
+}
+
+.content__info {
+    max-width: 711px;
+}
+
+.content__title {
+    font-family: KelsonSansBold;
+    font-size: 33px;
+    color: #0b232e;
+    padding-bottom: 23px;
+}
+
+.content__button {
+    min-width: 711px;
+    font-family: KelsonSansBold;
+    box-shadow: 0 4px 0 #d44900;
+    font-size: 23px;
+    height: 51px;
+    text-shadow: 0 1px 2px rgba(6, 35, 46, 0.25);
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 36px;
 }
 
 .footer {
