@@ -241,6 +241,7 @@ body {
     border-top: 4px solid #001821;
     flex-wrap: wrap;
     flex-direction: column;
+    z-index: 2;
 }
 
 .nav__item--submenu:hover .nav__submenu {
