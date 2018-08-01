@@ -320,12 +320,15 @@ body {
 
 .production__inner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .production__link {
+    display: inline-block;
     text-decoration: none;
     text-align: center;
+    margin: 0 42px 41px;
 }
 
 .production__product {
@@ -347,7 +350,7 @@ body {
 }
 
 .product__name {
-    padding: 7px;
+    padding-top: 7px;
     color: #fff;
     font-family: KelsonSansBold;
     font-size: 18px;
