@@ -462,7 +462,6 @@ p {
 }
 
 .production__main {
-    height: 715px;
     padding-top: 69px;
     background: url("../img/template/production__back.png") repeat-x center;
     overflow: hidden;
@@ -477,19 +476,21 @@ p {
 
 .production__link {
     display: inline-block;
-    text-decoration: none;
+    width: 184px;
+    height: 203px;
     text-align: center;
-    margin: 0 42px 41px;
+    text-decoration: none;
+    word-break: break-word;
 }
 
 .production__product {
     position: relative;
     display: inline-block;
+    width: 111px;
+    height: 111px;
     background-color: #0fa9e6;
     border: 3px solid #fff;
     border-radius: 50%;
-    width: 111px;
-    height: 111px;
     box-shadow: 0 3px 4px rgba(8, 16, 19, 0.36);
 }
 
@@ -502,9 +503,9 @@ p {
 
 .production__name {
     padding-top: 7px;
-    color: #fff;
     font-family: KelsonSansBold;
     font-size: 18px;
+    color: #fff;
 }
 
 .footer {
