@@ -508,6 +508,43 @@ p {
     color: #fff;
 }
 
+.advantages {
+    background: linear-gradient(to right, #0b688d 0%, #09202a 50%, #0e3546 100%);
+}
+
+.advantages__inner {
+    display: flex;
+}
+
+.advantages__slogan {
+    font-family: KelsonSansBold;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slogan__short {
+    font-family: KelsonSansRegular;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+
+.advantages__slogan--right {
+    text-align: right;
+}
+
+.slogan__watersign {
+    font-family: KelsonSansRegular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1.4px;
+    color: #b3e8ff;
+    opacity: 0.2;
+}
+
 .footer {
     background: linear-gradient(to top, #002331 0%, #003246 100%);
 }
