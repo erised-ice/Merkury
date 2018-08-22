@@ -517,6 +517,7 @@ p {
 }
 
 .advantages__slogan {
+    padding-top: 105px;
     font-family: KelsonSansBold;
     font-size: 33px;
     font-weight: 400;
@@ -525,13 +526,32 @@ p {
     color: #fff;
 }
 
+.advantages__slogan--left {
+    padding-left: 39px;
+}
+
+.slogan__main {
+    padding-bottom: 18px;
+}
+
+.slogan__strip {
+    border-bottom: 4px solid #f19604;
+    width: 51px;
+}
+
 .slogan__short {
+    padding-top: 14px;
     font-family: KelsonSansRegular;
     font-size: 24px;
     letter-spacing: 0.6px;
 }
 
+.advantages__img {
+    min-width: 318px;
+}
+
 .advantages__slogan--right {
+    padding-right: 39px;
     text-align: right;
 }
 
