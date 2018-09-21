@@ -691,3 +691,53 @@ p {
     }
 }
 
+@media (max-width: 1199px) {
+    .header__inner {
+        flex-wrap: wrap;
+    }
+
+    .header__search {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .header__logo {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search__input {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .header__inner {
+        justify-content: center;
+    }
+
+    .header__phone {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .header__callback {
+        margin: 0;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .header__inner {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+}
