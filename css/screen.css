@@ -509,6 +509,48 @@ p {
     color: #fff;
 }
 
+.new__title {
+    color: #ffffff;
+    font-family: KelsonSansBold;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.new__name {
+    color: #001821;
+    font-family: KelsonSansRegular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.new__description {
+    color: #959595;
+    font-family: OfficinaSansBook;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price__text {
+    color: #333333;
+    font-family: KelsonSansBold;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.price__summ {
+    color: #00486e;
+    font-size: 30px;
+}
+
+.price__currency {
+    font-size: 24px;
+}
+
 .advantages {
     background: linear-gradient(to right, #0b688d 0%, #09202a 50%, #0e3546 100%);
 }
