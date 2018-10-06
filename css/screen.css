@@ -509,12 +509,27 @@ p {
     color: #fff;
 }
 
+.new {
+    background: url("../img/template/New_Background.png");
+}
+
 .new__title {
     color: #ffffff;
     font-family: KelsonSansBold;
     font-size: 36px;
     font-weight: 400;
     line-height: 24px;
+    padding: 37px 0 36px;
+    text-align: center;
+}
+
+.new__main {
+    display: flex;
+}
+
+.new__item {
+    color: #fff;
+    display: inline-block;
 }
 
 .new__name {
