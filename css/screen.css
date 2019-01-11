@@ -773,12 +773,13 @@ p {
     text-decoration: underline;
     color: #f19305;
   }
+  
   .production__product:hover {
     background-color: #f09006;
   }
 
-  /* .new__item:hover {
-    position: relative;
-    margin-bottom: 10px;
-  } */
+  .new__item:hover {
+    transform: translateY(-10px);
+    transition: 0.25s transform;
+  }
 }
