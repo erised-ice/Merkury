@@ -125,7 +125,6 @@ body {
   height: 28px;
   padding: 0;
   font-size: 0;
-  cursor: pointer;
   background: url("../img/template/loupe.png") no-repeat;
   border: none;
   transform: translate(0, -50%);
@@ -158,6 +157,7 @@ body {
   color: #fff;
   background: linear-gradient(to top, #eb6c0e 0%, #f29b03 100%);
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .header__callback {
@@ -532,6 +532,19 @@ p {
   color: #fff;
   display: inline-block;
   background: #fff;
+  text-align: center;
+}
+
+.new__picture {
+  font-size: 0;
+  display: block;
+  width: 100%;
+  max-width: 267px;
+  margin-bottom: 20px;
+}
+
+.new__img {
+  width: 100%;
 }
 
 .new__name {
@@ -543,41 +556,46 @@ p {
   text-decoration: none;
 }
 
-.new__picture {
-  font-size: 0;
-  display: block;
-  width: 100%;
-  max-width: 267px;
-  margin-bottom: 23px;
-}
-
-.new__img {
-  width: 100%;
-}
-
 .new__description {
   color: #959595;
   font-family: OfficinaSansBook;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.new__price {
+  display: flex;
 }
 
 .price__text {
   color: #333333;
   font-family: KelsonSansBold;
   font-weight: 400;
-  line-height: 24px;
-  font-size: 20px;
+  font-size: 22px;
+  vertical-align: bottom;
+  margin-left: 6px;
+  letter-spacing: -1px;
 }
 
 .price__summ {
   color: #00486e;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .price__currency {
-  font-size: 24px;
+  font-size: 17px;
+  vertical-align: top;
+  letter-spacing: -0.6px;
+}
+
+.price__button {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 117px;
+  max-height: 42px;
+  margin: 0 11px 0 10px;
 }
 
 .advantages {
@@ -756,4 +774,8 @@ p {
   .production__product:hover {
     background-color: #f09006;
   }
+
+  /* .new__item:hover {
+    margin-bottom: -10px;
+  } */
 }
