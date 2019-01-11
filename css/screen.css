@@ -535,6 +535,7 @@ p {
   display: inline-block;
   background: #fff;
   text-align: center;
+  transition: 0.25s ease transform;
 }
 
 .new__picture {
@@ -598,6 +599,7 @@ p {
   max-width: 117px;
   max-height: 42px;
   margin: 0 11px 0 10px;
+  transition: 0.25s ease box-shadow;
 }
 
 .advantages {
@@ -762,24 +764,31 @@ p {
   .menu__item:hover {
     opacity: 0.8;
   }
+
   .slider__link:hover {
     color: #ffb400;
     text-decoration: underline;
   }
+
   .nav__item:hover {
     background-color: #0b6589;
   }
+
   .submenu__link:hover {
     text-decoration: underline;
     color: #f19305;
   }
-  
+
   .production__product:hover {
     background-color: #f09006;
   }
 
   .new__item:hover {
     transform: translateY(-10px);
-    transition: 0.25s transform;
+  }
+
+  .price__button:hover {
+    box-shadow: 0 8px 17px 1px rgba(0, 35, 49, 0.45);
+    opacity: 1;
   }
 }
