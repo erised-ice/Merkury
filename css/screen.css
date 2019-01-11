@@ -525,6 +525,8 @@ p {
 
 .new__main {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .new__item {
@@ -776,6 +778,7 @@ p {
   }
 
   /* .new__item:hover {
-    margin-bottom: -10px;
+    position: relative;
+    margin-bottom: 10px;
   } */
 }
