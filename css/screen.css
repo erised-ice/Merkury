@@ -391,9 +391,6 @@ body {
   background: url("../img/template/right.png");
 }
 
-
-/*Перекрыть стили слайдера, при которых исчезают стрелки при наведении*/
-
 .slick-prev:hover,
 .slick-prev:focus {
   background: url("../img/template/left.png");
@@ -606,19 +603,22 @@ p {
   display: flex;
   justify-content: space-between;
   height: 500px;
+  padding: 59px 0 64px;
 }
 
 .special__item {
   display: block;
   width: 625px;
   height: 357px;
-  background: url(../img/content/special-item1.png) no-repeat 0px 50px, linear-gradient(to bottom right, #f8b455 50%, #e6e6e6 50%);
+  background: url(../img/content/special-item1.png) no-repeat 0px 85px, linear-gradient(to bottom right, #f8b455 50%, #e6e6e6 50%);
+  text-align: center;
+  padding-top: 55px;
+  box-shadow: 0 5px 13px 1px rgba(0, 35, 49, 0.56);
 }
 
 .special__capture {
   font-family: OfficinaSansExtraBold;
   font-weight: 400;
-  line-height: 27.31px;
 }
 
 .special__capture--top {
@@ -627,24 +627,28 @@ p {
 }
 
 .special__capture--bottom {
-text-shadow: 0 2px 16px rgba(8, 16, 19, 0.06);
-color: #fff;
-font-size: 72px;
-font-weight: 400;
-line-height: 24px;
-text-transform: uppercase;
+  text-shadow: 0 2px 16px rgba(8, 16, 19, 0.06);
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 55px;
+  text-transform: uppercase;
 }
 
 .special__link {
+  display: block;
   color: #e77d00;
   font-size: 20px;
   font-weight: 400;
   line-height: 15.5px;
   text-decoration: underline;
-  }
+  position: relative;
+  top: 133px;
+  left: 215px;
+}
 
 .special__item--blue {
-  background: url(../img/content/special-item2.png) no-repeat 0px 90px, linear-gradient(to bottom right, #5dd0fe 50%, #e6e6e6 50%);
+  background: url(../img/content/special-item2.png) no-repeat 0px 130px, linear-gradient(to bottom right, #5dd0fe 50%, #e6e6e6 50%);
 }
 
 .special__item--blue .special__capture--top {
@@ -654,6 +658,7 @@ text-transform: uppercase;
 
 .special__item--blue .special__capture--bottom {
   font-size: 94px;
+  text-transform: none;
 }
 
 .special__item--blue .special__link {
