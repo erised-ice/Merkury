@@ -374,7 +374,7 @@
         <img src="img/template/map.png" alt="" class="content__img">
         <div class="content__info">
           <h1 class="content__title">Металлопрокат напрямую от производителей</h1>
-          <button class="content__button button">Сделать заказ</button>
+          <button class="content__button button js-open-popup">Сделать заказ</button>
           <article class="content__article">
             <p>Основная деятельность Сталепромышленной Компании «МЕРКУРИЙ» – это продажа металлопроката, широко применяемого в строительстве, в промышленности и сельском хозяйстве, в быту и других сферах жизни. Весь металлопрокат предлагается оптом и в розницу,
               отличается высоким качеством и прекрасными эксплуатационными характеристиками. Наши цены ниже, чем у конкурентов, так как вся продукция поступает напрямую с заводов-изготовителей.</p>
@@ -415,6 +415,20 @@
       </div>
     </div>
   </footer>
+  <div class="popup js-popup">
+    <div class="popup__overlay js-popup-close"></div>
+    <form action="#" class="popup__form js-popup-form">
+      <div class="popup__close">Закрыть</div>
+      <div class="popup__title">Сделать заказ</div>
+      <input class="popup__input input input__name" type="text" name="name" placeholder="Ваше имя" required>
+      <div class="popup__contacts">
+        <input class="popup__input input input__phone" type="tel" name="phone" placeholder="Телефон" required>
+        <input class="popup__input input input__mail" type="e-mail" name="e-mail" placeholder="E-mail" value="Example@" required>
+      </div>
+      <textarea class="popup__input input input__text" name="message" placeholder="Ваше сообщение"></textarea>
+      <button class="button popup__button" type="submit">Сделать заказ</button>
+    </form>
+  </div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/scripts.js"></script>
