@@ -24,7 +24,27 @@ $(document).ready(function() {
     });
   }
 
+  function displayAlertSuccessSubmit() {
+    var href = window.location.href;
+    var hasSubmitHref = href.includes('submit');
+
+    if (hasSubmitHref) {
+      var alert = $('.js-alert');
+      var toggleVisibleAlert = function(isVisible) {
+        alert.toggle(isVisible);
+      };
+      var timeDisplayAlert = 3000;
+
+      toggleVisibleAlert(true);
+
+      setTimeout(function() {
+        toggleVisibleAlert(false);
+      }, timeDisplayAlert);
+    }
+  }
+
   popup();
+  displayAlertSuccessSubmit();
 });
 
 

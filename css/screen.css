@@ -945,6 +945,21 @@ p {
   box-shadow: 0 4px 0 #d44900;
 }
 
+.alert {
+  position: fixed;
+  bottom: 0;
+  left: 0;  
+  width: 100%;
+  background-color: rgba(21, 174, 235, 0.8);
+  padding: 33px;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(15, 121, 164, 0.48);
+  color: #fefefe;
+  font-family: OfficinaSansExtraBold;
+  font-size: 48px;
+  display: none;
+}
+
 @media (min-width: 1024px) {
   .logo:hover,
   .search__button:hover,
