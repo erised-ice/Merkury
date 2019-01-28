@@ -417,18 +417,19 @@
   </footer>
   <div class="popup js-popup">
     <div class="popup__overlay js-close-popup"></div>
-    <form action="#" class="popup__form js-popup-form" method="POST">
+    <form action="#" method="POST" class="popup__form js-popup-form">
       <div class="popup__close js-close-popup">Закрыть</div>
       <div class="popup__title">Сделать заказ</div>
       <input class="popup__input input input__name" type="text" name="name" placeholder="Ваше имя" required>
       <div class="popup__contacts">
         <input class="popup__input input input__phone" type="tel" name="phone" placeholder="Телефон" required>
-        <input class="popup__input input input__mail" type="e-mail" name="e-mail" placeholder="E-mail" value="Example@" required>
+        <input class="popup__input input input__mail" type="email" name="email" placeholder="E-mail" required>
       </div>
       <textarea class="popup__input input input__text" name="message" placeholder="Ваше сообщение"></textarea>
       <button class="button popup__button" type="submit">Сделать заказ</button>
     </form>
   </div>
+  <div class="js-alert alert">Ваш заказ принят, мы свяжемся с вами.</div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/scripts.js"></script>
