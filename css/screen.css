@@ -687,10 +687,6 @@ p {
     color: #fff;
 }
 
-.advantages__slogan--text-left {
-    margin-left: 39px;
-}
-
 .slogan__main {
     margin-bottom: 18px;
 }
@@ -736,7 +732,7 @@ p {
   min-width: 318px;
 }
 
-.advantages__slogan--text-right {
+.advantages__slogan--right {
     margin-right: 39px;
     text-align: right;
 }
